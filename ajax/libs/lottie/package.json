@@ -1,0 +1,33 @@
+{
+  "name": "lottie",
+  "version": "5.1.16",
+  "description": "Lottie player for web animations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airbnb/lottie-web.git"
+  },
+  "keywords": [
+    "animation",
+    "canvas",
+    "svg",
+    "after effects",
+    "plugin",
+    "export"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/airbnb/lottie-web/wiki",
+  "author": {
+    "name": "airnan",
+    "email": "hernantorrisi@gmail.com"
+  },
+  "filename": "lottie.min.js",
+  "npmName": "lottie-web",
+  "npmFileMap": [
+    {
+      "basePath": "build/player",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
+}
